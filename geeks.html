@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geeks</title>
+</head>
+<body style="background-color: rgb(59, 129, 59);">
+    <fieldset style="width: fit-content; border-radius: 4px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin-top: 30px; background-color: white;">
+        <form action="#">
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder=" Chizz Chizz" name="name"> <br><br>
+            <label for="mail">Email</label> <br>
+            <input type="email" id="mail" placeholder="chizz@gmail.com" name="email"> <br><br>
+            <label for="age">Age</label> <br>
+            <input type="text" id="age" placeholder="10" name="age"> <br><br>
+
+            <label for="personality">Which option best describes you?</label> <br>
+            <select name="personality" id="personality" required>
+                <option value="Intern">Intern</option>
+                <option value="inquisitive">Inquisitive</option>
+                <option value="unbothered">unbothered</option>
+                <option value="loves_games">loves playing games</option>
+            </select> <br><br>
+            <label>Would you recommend Geeks for Geeks to a friend?</label> <br>
+            <input type="radio" id="recommend_yes" name="choice" value="Yes">
+            <label for="recommend_yes">Yes</label><br>
+
+            <input type="radio" id="recommend_no" name="choice" value="No">
+            <label for="recommend_no">No</label><br>
+
+            <input type="radio" id="recommend_maybe" name="choice" value="Maybe">
+            <label for="recommend_maybe">Maybe</label><br><br>
+
+            <legend>Languages and frameworks known (check all that apply)</legend>
+                <input type="checkbox" name="language_C" id="C" value="C">
+                <label for="C">C</label><br>
+
+                <input type="checkbox" name="language_Cplusplus" id="Cplusplus" value="C++">
+                <label for="Cplusplus">C++</label><br>
+
+                <input type="checkbox" name="language_Csharp" id="Csharp" value="C#">
+                <label for="Csharp">C#</label><br>
+
+                <input type="checkbox" name="language_Java" id="Java" value="Java">
+                <label for="Java">Java</label><br>
+
+                <input type="checkbox" name="language_Python" id="Python" value="Python">
+                <label for="Python">Python</label><br>
+
+                <input type="checkbox" name="language_Javascript" id="Javascript" value="Javascript">
+                <label for="Javascript">Javascript</label><br>
+
+                <input type="checkbox" name="language_React" id="React" value="React">
+                <label for="React">React</label><br>
+
+                <input type="checkbox" name="language_Angular" id="Angular" value="Angular">
+                <label for="Angular">Angular</label><br>
+
+                <input type="checkbox" name="language_Django" id="Django" value="Django">
+                <label for="Django">Django</label><br>
+
+                <input type="checkbox" name="language_Spring" id="Spring" value="Spring">
+                <label for="Spring">Spring</label><br><br>
+
+                <label for="comments">Any comments or suggession?</label><br>
+                <textarea name="comments" id="comments" style="width: 350px;"></textarea> <br><br>
+
+                <input type="submit" style="width: 350px; background-color: rgb(59, 129, 59);;">
+        </form>
+    </fieldset>
+</body>
+</html>

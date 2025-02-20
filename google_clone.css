@@ -1,0 +1,141 @@
+/* Reset styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Google Logo */
+.logo img {
+    width: 260px; /* Adjust size */
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* Search Bar */
+/* .search-container {
+    margin-top: 0px;
+    
+}
+
+.search-container input {
+    width: 700px;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #f8f9fa;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+} */
+
+/* Center the search box */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+/* Main search box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 16px;
+    width: 700px; /* Adjust as needed */
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); /* Google’s shadow effect */
+}
+
+/* Search input field */
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* Search and Mic icons */
+.search-icon {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.mic-icon {
+    width: 19px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.customise-btn {
+    position: absolute;
+    bottom: 40px; /* Adjust vertical position */
+    right: 20px;  /* Moves button to the right */
+    background-color: #b0d0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 115px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex; /* Aligns text properly */
+    justify-content: center;
+    align-items: center;
+}
+
+.customise-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Remove extra spacing from <p> inside the button */
+.customise-btn p {
+    margin: 0;
+}
